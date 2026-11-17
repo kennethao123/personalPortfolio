@@ -21,12 +21,15 @@ ul {
 
 .navbarMenu  > ul {
     display: flex;
-}
-
-ul > li {
-    margin-left: 1.875em;
+    flex-wrap: wrap;
+    gap: 2em;
 
 }
+
+/*ul > li {*/
+/*    margin-left: 1.875em;*/
+
+/*}*/
 
 .link::after {
     content: "";

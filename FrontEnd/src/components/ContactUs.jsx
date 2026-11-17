@@ -28,7 +28,7 @@ const ContactUs = () => {
     };
 
     return (
-        <div>
+        <div id={styles.contactUs}>
             <form ref={form} onSubmit={sendEmail} className={styles.contactForm}>
                 <label>Name</label>
                 <input type="text" name="user_name" />

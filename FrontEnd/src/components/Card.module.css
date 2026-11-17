@@ -5,6 +5,11 @@
     padding: 1rem;
     min-width: 10rem;
     background-color: rgb(10,1,67);
+
+    /*img {*/
+    /*    display:block;*/
+    /*    max-width: 100%;*/
+    /*}*/
 }
 
 .icon {
