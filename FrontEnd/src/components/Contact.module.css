@@ -7,22 +7,23 @@
 .cardDiv {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 3rem;
     margin-top: 3rem;
+
+    .contactTitleDiv {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+    }
+
+    .buttonsDiv {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
 }
 
 hr {
-    width: 25%;
-}
-
-.contactTitleDiv {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-}
-
-.buttonsDiv {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
+    width: 50%;
 }
