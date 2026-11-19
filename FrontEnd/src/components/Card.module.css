@@ -6,10 +6,6 @@
     min-width: 10rem;
     background-color: rgb(10,1,67);
 
-    /*img {*/
-    /*    display:block;*/
-    /*    max-width: 100%;*/
-    /*}*/
 }
 
 .icon {
@@ -44,10 +40,10 @@
 button {
     background: none;
     border: none;
-}
 
-button > .icon {
-    max-width: 2rem;
+    .icon {
+        max-width: 2rem;
+    }
 }
 
 button:hover {
@@ -65,22 +61,26 @@ button:hover {
     border-radius: 1rem;
 }
 
-.zoomedGallery .arrow {
-    color: black;
-    font-size: 2rem;
-}
-
-.zoomedGallery {
-    display: flex;
-
-}
 
 .galleryDialog {
     border-radius: 2rem;
+
+    .zoomedGallery {
+        display: flex;
+        width: 100%;
+
+        .arrow {
+            color: black;
+            font-size: 2rem;
+        }
+
+        .zoomedImage {
+            min-width: 1px;
+        }
+
+    }
 }
 
-.zoomedImage {
-    width: 70vw;
-    height: 80vh;
-    object-fit: contain;
-}
+
+
+
